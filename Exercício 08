@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Exercicio_08 {
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println("Quantos reais você ganha por hora ?");
+		double ganho = s.nextDouble();
+		
+		System.out.println("Quantas horas você trabalha por mês ?");
+		double horas = s.nextDouble();
+		
+		double renda = (ganho * horas);
+		
+		System.out.printf("Sua renda é de R$%.2f", renda);
+		
+		s.close();
+	}
+
+}
