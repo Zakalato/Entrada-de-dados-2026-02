@@ -9,7 +9,7 @@ public class Exercicio_09 {
 		System.out.println("Digite a temperadura em graus Farenheit: ");
 		double fah = s.nextDouble();
 		
-		double celcius = ((fah - 32) * 5.0 / 9.0);
+		double celcius = ((fah - 32.0) * 5.0 / 9.0);
 		
 		System.out.printf("Sua temperatura em Celsius: %.1f", celcius);
 		
