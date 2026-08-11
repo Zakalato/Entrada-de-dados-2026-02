@@ -1,0 +1,17 @@
+import java.util.Scanner;
+	
+public class Exercicio_02 {
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println("Digite sua frase: ");
+		String frase = s.nextLine();
+		
+		System.out.println("Sua frase é: " + frase);
+		
+		s.close();
+	}
+
+}
